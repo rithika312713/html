@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div style="height: auto; width: 50%; background-color: lightsteelblue;">
+            <h1 style="color: navy; background-color: lightblue;">Biodata</h1>
+
+            <form onsubmit="alert('Form Submitted Successfully!');" return false>
+                <label for="fullname">Full Name</label>
+                <input type="text" 
+                placeholder="Enter Full Name" 
+                id="fullname" 
+                name="fullname"
+                minlength="3"
+                maxlength="20"
+                required/>
+
+                <br>
+                <br>
+
+                <label for="age">Age:</label>
+                <input type="number" 
+                placeholder="Enter Age"
+                name="age" 
+                id="age"
+                min="18"
+                required/>
+
+                <br><br>
+
+                <label for="">Gender: </label>
+
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" value="others" id="other">
+                <label for="other">Others</label>
+
+                <br><br>
+
+                <label for="skills">Skills:</label>
+
+                <input type="checkbox" name="skills" value="cooking" id="cooking">
+                <label for="cooking">Cooking</label>
+
+                <input type="checkbox" name="skills" value="singing" id="singing">
+                <label for="singing">Singing</label>
+
+                <input type="checkbox" name="skills" value="housekeeping" id="housekeeping">
+                <label for="housekeeping">Housekeeping</label>
+
+                <input type="checkbox" name="skills" value="drawing" id="drawing">
+                <label for="drawing">Drawing</label>
+
+                <br><br>
+
+                <label for="job">Job: </label>
+                <select name="jobs" id="job" required>
+                    <option value="">--choose an option--</option>
+                    <option value="Government Job">Government Job</option>
+                    <option value="Private Job">Private Job</option>
+                    <option value="Business">Business</option>
+                    <option value="others">Others</option>
+                </select>
+
+                <br><br>
+
+                <label for="edu">Education</label>
+                <input type="text"
+                placeholder="Highest Education Qualification"
+                id="edu"
+                name="education"
+                required>
+
+                <br><br>
+
+                <label for="sal">Salary: ₹</label>
+                <input type="number"
+                placeholder="Annual Salary" 
+                id="sal"
+                name="salary"
+                required>
+
+                <br><br>
+
+                <label for="">Zodiac Signs: </label>
+
+                <input type="radio" name="zodiac" value="Aries" id="a">
+                <label for="a">Aries</label>
+                
+                <input type="radio" name="zodiac" value="Taurus" id="b">
+                <label for="b">Taurus</label>
+                
+                <input type="radio" name="zodiac" value="Gemini" id="c">
+                <label for="c">Gemini</label>
+                
+                <input type="radio" name="zodiac" value="Cancer" id="d">
+                <label for="d">Cancer</label>
+                
+                <input type="radio" name="zodiac" value="Leo" id="e">
+                <label for="e">Leo</label>
+                
+                <input type="radio" name="zodiac" value="Vigro" id="f">
+                <label for="f">Vigro</label>
+                <br>
+                <input type="radio" name="zodiac" value="Libra" id="g">
+                <label for="g">Libra</label>
+                
+                <input type="radio" name="zodiac" value="Scorpio" id="h">
+                <label for="h">Scorpio</label>
+                
+                <input type="radio" name="zodiac" value="Sagittarius" id="i">
+                <label for="i">Sagittarius</label>
+                
+                <input type="radio" name="zodiac" value="Capricorn" id="j">
+                <label for="j">Capricon</label>
+                
+                <input type="radio" name="zodiac" value="Aquarius" id="k">
+                <label for="k">Aquarius</label>
+                
+                <input type="radio" name="zodiac" value="Pisces" id="l">
+                <label for="l">Pisces</label>
+
+                <br><br>
+
+                <fieldset>
+                    <legend>Permanent Address</legend>
+                    
+                    <label for="add">Address: </label>
+                    <input type="text" 
+                    placeholder="Enter Address"
+                    id="add"
+                    name="address"
+                    required>
+                </fieldset>
+
+                <br><br>
+
+                <label for="dob">Date Of Birth: </label>
+                <input type="date" 
+                placeholder="Your Date Of Birth"
+                id="dob"
+                name="DOB"
+                required>
+
+                <br><br>
+
+                <label for="">Religion: </label>
+
+                <input type="radio" name="religion" value="Hindu" id="hindu">
+                <label for="hindu">Hindu</label>
+
+                <input type="radio" name="religion" value="Christian" id="christ">
+                <label for="christ">Christian</label>
+
+                <input type="radio" name="religion" value="Muslim" id="mus">
+                <label for="mus">Muslim</label>
+
+                <input type="radio" name="relegion" value="Buddhism" id="bud">
+                <label for="bud">Buddhism</label>
+
+                <input type="radio" name="relegion" value="Jainism" id="jain">
+                <label for="jain">Jainism</label>
+
+                <input type="radio" name="relegion" value="Others" id="ot">
+                <label for="ot">Others</label>
+
+                <br><br>
+
+                <label for="num">Contact Number: </label>
+                <input type="tel" id="num" name="contact" placeholder="Mobile Number" maxlength="10" minlength="10" required>
+
+                <br><br>
+
+                <label for="ins">Instagram ID: </label>
+                <input type="text" name="instagram" id="ins" placeholder="Enter Your ID" required>
+
+                <br><br>
+
+                <label for="aad">AADHAR NO: </label>
+                <input type="number" name="aadhar" id="aad" placeholder="Enter Your AADHAR NO" maxlength="12" minlength="12" required>
+
+                <br><br>
+
+                <label for="img">Photo: </label>
+                <input type="file" id="img" name="photo" placeholder="Upload Your Image" accept="image/png, image/jpeg, image/webp">
+
+                <br><br>
+
+                <label for="mail">Email ID: </label>
+                <input type="email" id="mail" name="email" placeholder="Enter Your Email ID" required>
+
+                <br><br>
+
+                <label for="ass">Asserts: ₹</label>
+                <input type="number" id="ass" name="assets" placeholder="Asserts in Rupees" required>
+
+                <br> <br>
+
+                <label for="sib">Siblings: </label>
+                <input type="number" id="sib" name="siblings" placeholder="No.Of Siblings" required> 
+
+                <br><br>
+
+                <label for="">Have You Married Before: </label>
+
+                <input type="radio" id="y" name="Married" value="YES" required>
+                <label for="y">YES</label>
+
+                <input type="radio" id="z" name="Married" value="NO" required>
+                <label for="z">NO</label>
+
+                <br><br>
+
+                <label for="">Are You Divorced: </label>
+
+                <input type="radio" id="w" name="divorce" value="Yes" required>
+                <label for="w">Yes</label>
+
+                <input type="radio" id="v" name="divorce" value="No" required>
+                <label for="v">No</label>
+
+                <br><br>
+
+                <button>SUBMIT</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
